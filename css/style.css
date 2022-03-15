@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.admin-box {
+    background-color: darkgreen;
+    color:white ;
+    width: 500px;
+    margin: 40px auto;
+    padding: 50px;
+    text-align: center;
+    border-color:navy;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 30px;
+}
+form {
+    margin: 20px;
+}
+label {
+    display: block;
+    text-align: left;
+    color: black;
+
+}
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 50% ;
+    display: block;
+    margin: auto;
+}
+a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin: 20px 0px;
+    text-align: end;
+}
+p {
+    margin-top: 20px;
+    color: black;
+}
+p a {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: darkred;
+}
+h1{
+    color: black;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: red;
+}
